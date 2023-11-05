@@ -1,0 +1,47 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.container img {
+  width: 100%;
+  max-height: 966px;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+/* Estilo del título */
+.title {
+  font-size: 48px; /* Aumenta el tamaño de fuente para resaltar más */
+  margin-bottom: 20px; /* Mayor espacio debajo del título */
+  color: #9bb80bfd; /* Cambia el color del texto a blanco para mayor contraste */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra de texto */
+}
+
+/* Estilo del botón */
+button {
+  background-color: #e64a19; /* Un color naranja como el de Mario Bros */
+  color: #fff; /* Texto blanco */
+  padding: 15px 30px; /* Mayor espacio alrededor del texto */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 24px; /* Aumenta el tamaño de fuente del botón */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff5722; /* Cambio de color al pasar el mouse */
+}
+
+.link {
+  text-decoration: none;
+  color: #fff; /* Color del texto del enlace */
+}

@@ -1,0 +1,118 @@
+.error {
+  color: white;
+  font-size: 12px;
+  margin-top: 4px;
+  background-color: rgba(255, 0, 0, 0.2);
+  padding: 4px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+.container .title {
+  font-size: 24px; /* Tamaño de fuente más grande */
+  font-weight: bold; /* Texto en negrita */
+  margin-bottom: 20px; /* Mayor espacio inferior para separar el título del formulario */
+  color: #333; /* Cambia el color del título para que contraste con el fondo */
+  text-align: center; /* Centra el título horizontalmente */
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Fondo sutilmente transparente */
+  border: 1px solid #ddd;
+  border-radius: 10px; /* Bordes más redondeados */
+}
+
+.container .requiredFields {
+  font-size: 12px;
+  color: #777; /* Color de texto menos destacado */
+  margin-bottom: 10px;
+}
+
+.container .redAsterisk {
+  color: #ff3333; /* Color rojo para el asterisco */
+  font-size: 12px; /* Tamaño de fuente ligeramente más grande para el asterisco */
+  margin-right: 4px; /* Espaciado a la derecha del asterisco */
+}
+
+.container label {
+  display: block;
+  margin-bottom: 2px; /* Menos margen entre el título y el input */
+  font-weight: bold;
+  color: #333; /* Cambia el color del texto */
+}
+
+.container input[type="text"],
+.container input[type="date"],
+.container input[type="number"],
+.container select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 6px; /* Ajusta el margen inferior */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container select {
+  appearance: none;
+}
+
+.container select::-ms-expand {
+  display: none;
+}
+
+.container button {
+  border: none;
+  border-radius: 20px; /* Bordes más redondeados para los botones */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.container button.back {
+  background-color: #ff3333; /* Fondo rojo */
+  color: white;
+  margin-right: 10px; /* Separación entre botones */
+}
+
+.container button.create {
+  background-color: #007bff;
+  color: white;
+}
+
+.deleteButton {
+  background-color: #ff3333;
+  color: white;
+  border: none;
+  border-radius: 50%; /* Hace que el botón sea redondo */
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 0.1; /* Ajusta la altura de línea a 1 para alinear la "x" correctamente */
+  margin-left: 10px; /* Agrega un margen izquierdo para separar los botones */
+}
+
+.success {
+  color: #4caf50; /* Color de texto verde */
+  background-color: #dff0d8; /* Color de fondo verde claro */
+  border: 1px solid #4caf50; /* Borde verde */
+  padding: 10px; /* Espaciado interior */
+  margin: 10px 0; /* Margen superior e inferior */
+  border-radius: 4px; /* Bordes redondeados */
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el mensaje de error */
+.errorMsj {
+  color: #ff0000; /* Color de texto rojo */
+  background-color: #ffd2d2; /* Color de fondo rojo claro */
+  border: 1px solid #ff0000; /* Borde rojo */
+  padding: 10px; /* Espaciado interior */
+  margin: 10px 0; /* Margen superior e inferior */
+  border-radius: 4px; /* Bordes redondeados */
+  font-weight: bold; /* Texto en negrita */
+}

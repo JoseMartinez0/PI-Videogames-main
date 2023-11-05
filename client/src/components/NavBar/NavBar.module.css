@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centro horizontalmente */
+  padding: 10px;
+  background-color: #333; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+}
+
+.container select {
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+  background-color: #555; /* Fondo más oscuro para los selects */
+  color: #fff;
+  border-radius: 5px;
+}
+
+.container select:focus {
+  outline: none;
+}
+
+.container select option {
+  background-color: #333; /* Fondo de las opciones de los selects */
+}
+
+.container a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.container a:hover {
+  color: #c7d6e0; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilo para el "Add Game" */
+.addGameLink {
+  background-color: #0074cc; /* Fondo azul */
+  color: #fff; /* Texto blanco */
+  padding: 10px 20px;
+  border-radius: 50px; /* Botón redondeado */
+  text-decoration: none;
+  margin-left: 10px; /* Ajusta el espacio entre los elementos */
+  transition: background-color 0.3s, color 0.3s; /* Agregamos transición suave al cambio de colores */
+}
+
+.addGameLink:hover {
+  background-color: #00589b; /* Cambia el color al pasar el mouse */
+}

@@ -1,0 +1,44 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.pagination li {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  position: relative; /* Añadimos una posición relativa para que la sombra sea relativa a este elemento */
+}
+
+/* Cambia el color de fondo y el color del texto cuando se pasa el mouse sobre un número */
+.pagination a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+.selectedPage {
+  background-color: #c7d6e0; /* Cambia el color de fondo como desees */
+  color: #fff; /* Cambia el color de texto como desees */
+  border-radius: 5px; /* Agrega una esquina redondeada o un borde si lo deseas */
+  /* Otros estilos de resaltado */
+}

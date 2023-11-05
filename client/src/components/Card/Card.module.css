@@ -1,0 +1,67 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+  text-decoration: none;
+  color: #333;
+}
+
+.cardImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.cardInfo {
+  padding: 10px;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.cardGenresContainer {
+  border-radius: 4px;
+  padding: 5px; /* Añadido para separar el título de los géneros */
+  margin: 5px 0; /* Añadido para separar el contenedor de otros elementos */
+}
+
+.cardGenresTitle {
+  font-size: 0.9rem;
+  margin: 0; /* Elimina el margen superior para alinear el texto con el título */
+}
+
+.cardGenres {
+  font-size: 0.9rem;
+  margin: 0; /* Elimina el margen superior para alinear el texto con el título */
+}
+
+.cardRating {
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.seeMoreButton {
+  display: block;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.seeMoreButton:hover {
+  background-color: #0056b3;
+}
