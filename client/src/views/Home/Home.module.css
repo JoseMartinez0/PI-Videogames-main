@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: #000; /* Cambiamos el color de fondo a negro */
+  color: #fff; /* Cambiamos el color del texto a blanco */
   padding-top: 0; /* Ajustamos el padding para crear espacio en la parte superior */
   margin-top: 0;
 }

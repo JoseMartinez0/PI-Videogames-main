@@ -10,7 +10,12 @@ const SearchBar = () => {
   const handleChange = (event) => {
     setName(event.target.value);
   };
-  console.log(name);
+
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter") {
+      onSearch();
+    }
+  };
 
   const onSearch = () => {
     dispatch(filterVideogames(name));
@@ -23,6 +28,8 @@ const SearchBar = () => {
         type="text"
         onChange={handleChange}
         placeholder="Search videogames..."
+        className={style.searchInput}
+        onKeyPress={handleKeyPress}
       />
       <button className={style.button} onClick={() => onSearch(name)}>
         Search

@@ -8,7 +8,6 @@ import Paginated from "../../components/Paginated/Paginated";
 const Home = () => {
   const dispatch = useDispatch();
   const allVideogames = useSelector((state) => state.videogames);
-  const auxiliar = useSelector((state) => state.auxiliar);
 
   const [currentPage, setCurrentPage] = useState(1);
   // eslint-disable-next-line no-unused-vars

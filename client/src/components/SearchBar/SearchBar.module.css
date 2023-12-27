@@ -11,3 +11,15 @@
 .button:hover {
   background-color: #0056b3;
 }
+
+.searchContainer {
+  background-color: #ccc; /* Color gris para el fondo del contenedor */
+  padding: 5px; /* Ajusta el relleno según sea necesario */
+  border-radius: 5px; /* Ajusta el radio de la esquina según sea necesario */
+  display: inline-flex; /* Alinea los elementos en línea y les permite compartir el fondo */
+}
+
+.searchInput {
+  background-color: #aca6a6;
+  padding: 2px;
+}

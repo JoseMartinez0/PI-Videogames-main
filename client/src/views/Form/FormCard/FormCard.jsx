@@ -164,8 +164,6 @@ const FormCard = () => {
     }
   };
 
-  console.log(userData);
-
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>Create New Video Game</h2>
